@@ -22,9 +22,6 @@ WORKDIR /Keagate
 # Copy the entire repository into the container, excluding files like .git
 COPY . .
 
-# Copy the local.json configuration file specifically into the config folder
-COPY /Keagate/config/local.json /Keagate/config/local.json
-
 # Install all workspace dependencies
 RUN pnpm install --frozen-lockfile
 
