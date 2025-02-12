@@ -1,0 +1,31 @@
+{
+    "ETH": {
+        "ADMIN_PUBLIC_KEY": "0x9962E18568a398BAEbd4736F4F2E08Ad206700FD",
+        "ADMIN_PRIVATE_KEY": ""
+    },
+  "BTC": {
+        "ADMIN_PUBLIC_KEY": "bc1qk8n79p7lf9vjdpq872yjlnd79ml49fxgruqlmm",
+        "ADMIN_PRIVATE_KEY": ""
+    },
+  "TRX": {
+        "ADMIN_PUBLIC_KEY": "TAN3fmnuWdsH3LTNg4BmWUK7abqaVYhUC2",
+        "ADMIN_PRIVATE_KEY": ""
+    }
+    
+
+    "KEAGATE_API_KEY": "TESTAPISKUNK29202302-",
+    "IP_WHITELIST": [],
+
+    "TRANSACTION_TIMEOUT": 1200000,
+    "TRANSACTION_MIN_REFRESH_TIME": 30000,
+    "TRANSACTION_SLIPPAGE_TOLERANCE": 0.02,
+    "BLOCKBOOK_RETRY_DELAY": 6000,
+    
+    "MONGO_CONNECTION_STRING": "mongodb://keagate:Y7VBX1tdsRW9k9f2h2gp0R6tyDvYeMbuCIju6QEANRscEGaszYlgamUbDxC9MbvH@188.214.128.87:18710/?directConnection=true",
+
+    "INVOICE_ENC_KEY": "D(G+KbPeShVmYq3s6v9y$B&E)H@McQfT",
+
+    "IS_DEV": true,
+    "USE_SO_CHAIN": true,
+    "PORT": 8081
+}
