@@ -23,7 +23,7 @@ WORKDIR /Keagate
 COPY . .
 
 # Install all workspace dependencies
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
 
 # Build the project
 RUN pnpm run build
